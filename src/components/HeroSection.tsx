@@ -24,8 +24,8 @@ const HeroSection = () => {
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <div className="fade-in-up">
           {/* Heart with white outline */}
-          <div className="relative inline-block mx-auto mb-6 p-6"> {/* Added p-6 */}
-  <Heart className="w-12 h-12 text-white absolute scale-[2] pulse-heart drop-shadow-lg" />
+          <div className="relative inline-block mx-auto mb-6 overflow-visible"> {/* Added overflow-visible */}
+  <Heart className="w-12 h-12 text-white absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-[1.5] pulse-heart" />
   <Heart className="w-12 h-12 text-wedding-blush relative pulse-heart drop-shadow-lg" />
 </div>
           
