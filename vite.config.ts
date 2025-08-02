@@ -8,7 +8,6 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
-  base: '/midhun-weds-seethalakshmi/',
   },
   plugins: [
     react(),
